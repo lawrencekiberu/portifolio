@@ -81,3 +81,23 @@ a:hover {
   background-color: #0d6efd;
   color: #ddd;
 }
+.whatsapp-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebe5d;
+    text-decoration: none;
+    color: white;
+}
+.fa-whatsapp {
+    font-size: 20px;
+}
