@@ -1,0 +1,83 @@
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ :root{ --accent:#0d6efd; --container-max:1100px; font-family: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+    .hero { min-height: 72vh; display:flex; align-items:center; background: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.15)), url('Lawrence Kiberu - The Software Engineer.jpg') center/cover no-repeat; color: #fff; }
+    .hero .card { background: rgba(0,0,0,.35); border: none; }
+    .nav-brand { font-weight:600; letter-spacing:.2px; }
+    .social-icons a { color: inherit; font-size:1.25rem; margin-right:.6rem; text-decoration:none; }
+    .feature-card { border:0; box-shadow:0 6px 18px rgba(0,0,0,.06); }
+    footer { background:#0b0b0b; color:#ddd; }
+    .img-thumb { max-width:150px; height:150px; object-fit:cover; border-radius:.5rem; }
+    .display-5 { color: #fff; }
+    .lead { color: white; }
+    .mb-3 { color: rgb(6, 5, 5); }
+    .social-icons a:hover { color: var(--accent); }
+    #services .cards, #portfolio .projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card-body:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(23, 2, 108, 0.2);
+  background-color:#0d6efd;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.hero .card :hover{ transform: none;
+ box-shadow: none; 
+ transition: none; 
+background: none;
+border-radius: none;}
+    
+    @media (max-width:575.98px){ .hero { min-height:56vh; background-position: center 40%; } }
+.social-icons a {
+  font-size: 30px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+
+.roxie {
+  color: #f7efef;
+}
+a {
+  color: #0d6efd;
+}
+a:hover {
+  color: #ca5d0a;
+}
+.nav-link:hover {
+  color: white;
+  background-color: #1877F2;
+  border-radius: 10px;
+  padding: 5px;
+}
+.btn {
+  background-color: #0d6efd;
+  border: none;
+}
+.hero .card .btn-lg:hover {
+  background-color: #e4e9ef;
+  color: black;
+}
+.btn-outline-light {
+  color: white;
+  border: 1px solid white;
+}
+.p-3 bg-white rounded shadow-sm text-center{
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #0d6efd;
+  color: red;
+}
+.py-4 {
+  background-color: #0d6efd;
+  color: #ddd;
+}
